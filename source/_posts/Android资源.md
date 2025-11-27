@@ -94,8 +94,6 @@ https://developer.android.google.cn/ndk/guides/stable_apis
 
 https://developer.android.google.cn/ndk/reference
 
-[JNI开发的三种方式](https://www.jb51.net/article/130786.htm)
-
 [JNI本地编程](https://www.cnblogs.com/rocomp/p/4892866.html)
 
 ## 自定义View
