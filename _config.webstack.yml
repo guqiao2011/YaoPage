@@ -488,8 +488,8 @@ aboutPage:
     html: '<blockquote><p>本站分享免费好玩的资源</p></blockquote>'
   webmaster:
     head: 关于站长
-    name: YaoShare
-    url: http://guqiao2011.github.io/YaoShare/
+    name: YaoPage
+    url: http://guqiao2011.github.io/YaoPage/
     img: /images/logos/myblog.png
     description: 分享日常免费资源，公众号YaoShare
     html: '<br /><blockquote><p>本站是基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'

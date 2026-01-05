@@ -6,7 +6,7 @@ author: jiangyao
 language: zh-Hans
 timezone: ''
 url: https://guqiao.gitee.io/OpenBlog/
-root: /YaoShare
+root: /YaoPage
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
