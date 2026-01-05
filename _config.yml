@@ -64,5 +64,5 @@ ignore: null
 theme: webstack
 deploy:
   type: git
-  repo: https://github.com/guqiao2011/YaoShare.git
+  repo: https://github.com/guqiao2011/YaoPage.git
   branch: main
