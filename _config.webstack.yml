@@ -437,24 +437,8 @@ onlineWebsite:
     url: http://yaoger.endl.site/YaogerBlog/
     img: /images/logos/github.png
     description: 
-  - name: vmhost
-    url: http://yaoger.ccccocccc.cc/
-    img: /images/logos/github.png
-    description: 
-  - name: infinityfree
-    url: http://yaoger.free.nf/
-    img: /images/logos/github.png
-    description: 
-  - name: 51server
-    url: http://guqiao2011.51server.top/
-    img: /images/logos/github.png
-    description:
-  - name: byet
-    url: http://guqiao2011.byethost22.com/
-    img: /images/logos/github.png
-    description: 
   - name: netlify
-    url: https://guqiao2011.netlify.app/
+    url: https://yaoshare.netlify.app/
     img: /images/logos/github.png
     description:      
   - name: vercel
