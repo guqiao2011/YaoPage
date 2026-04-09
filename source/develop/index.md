@@ -4,15 +4,9 @@ date: 2023-06-21 14:52:17
 type: 'child'
 search: true
 menu:
-  - name: 前端
-    icon: fas fa-tools
-    config: webDoc
   - name: 移动端
     icon: fas fa-blog
     config: mobileDoc
-  - name: 后端
-    icon: fas fa-tools
-    config: backendDoc
   - name: CPP
     icon: fas fa-blog
     config: nativeDoc 
@@ -31,182 +25,6 @@ menu:
   - name: 逆向
     icon: fas fa-blog
     config: reverse
-
-
-webDoc:
-  - name: VUE
-    url: https://cn.vuejs.org/
-    img: /images/logos/github.png
-    description:  
-  - name: elementUI
-    url: https://element.eleme.cn
-    img: /images/logos/github.png
-    description: 流行的UI框架
-  - name: axios
-    url: http://www.axios-js.com/zh-cn/docs/vue-axios.html
-    img: /images/logos/github.png
-    description: 流行的网络请求框架
-  - name: Bootstrap
-    url: https://www.bootcss.com/
-    img: /images/logos/github.png
-    description: 这个就不用介绍了吧
-  - name: BootCDN
-    url: https://www.bootcdn.cn/
-    img: /images/logos/github.png
-    description: 前端CDN资源
-  - name: 首页模板
-    url: https://landing.ant.design/index-cn
-    img: /images/logos/github.png
-    description: 文档首页模版
-  - name: dumi
-    url: https://d.umijs.org/
-    img: /images/logos/github.png
-    description: 文档助手
-  - name: docsify
-    url: https://docsify.js.org/
-    img: /images/logos/github.png
-    description: 另一个文档助手
-  - name: LayUI
-    url: http://layui.winxapp.cn/
-    img: /images/logos/github.png
-    description: 不知道在哪里找的一个UI
-  - name: 微信小程序资源
-    url: https://github.com/justjavac/awesome-wechat-weapp
-    img: /images/logos/github.png
-    description: 微信小程序开发
-
-mobileDoc:
-  - name: 鸿蒙开发
-    url: https://developer.harmonyos.com/cn/docs/documentation/doc-guides/start-overview-0000000000029602
-    img: /images/logos/github.png
-    description: 鸿蒙开发官方文档
-  - name: Flutter中文社区
-    url: https://flutter-io.cn/
-    img: /images/logos/github.png
-    description: Flutter中文社区
-  - name: Flutter实战
-    url: https://book.flutterchina.club/
-    img: /images/logos/github.png
-    description: Flutter实战
-  - name: Flutter中文网
-    url: https://flutterchina.club/
-    img: /images/logos/github.png
-    description: Flutter中文网
-  - name: FlutterApiDoc
-    url: https://api.flutter.dev/
-    img: /images/logos/github.png
-    description: FlutterApiDoc
-  - name: Flutter
-    url: https://flutter.io
-    img: /images/logos/github.png
-    description: Flutter
-  - name: Dart官网
-    url: http://www.dartdoc.cn/
-    img: /images/logos/github.png
-    description: Dart官网
-  - name: DartPackages
-    url: https://pub.flutter-io.cn/
-    img: /images/logos/github.png
-    description: DartPackages
-  - name: Kotlin语言中文站
-    url: https://www.kotlincn.net/docs/reference/
-    img: /images/logos/github.png
-    description: Kotlin语言中文站
-  - name: kotlin官网
-    url: https://kotlinlang.org/
-    img: /images/logos/github.png
-    description: kotlin官网
-  - name: Kotlin Resource
-    url: https://www.kotlinresources.com/
-    img: /images/logos/github.png
-    description: Kotlin Resource
-  - name: Awesome-Kotlin
-    url: https://kotlin.libhunt.com/
-    img: /images/logos/github.png
-    description: Awesome-Kotlin
-  - name: Kotlin is Awesome
-    url: https://kotlin.link/
-    img: /images/logos/github.png
-    description: Kotlin is Awesome
-  - name: cmake官网
-    url: https://cmake.org/cmake-tutorial/
-    img: /images/logos/github.png
-    description: cmake官网
-  - name: cmake中文手册
-    url: https://www.zybuluo.com/khan-lau/note/254724
-    img: /images/logos/github.png
-    description: cmake中文手册
-  - name: cmake3.10 help
-    url: https://cmake.org/cmake/help/v3.10/
-    img: /images/logos/github.png
-    description: cmake3.10 help
-  - name: JNI开发最佳实践
-    url: https://www.jianshu.com/p/9c7f296bc362
-    img: /images/logos/github.png
-    description: JNI开发最佳实践
-  - name: libgdx官网
-    url: http://libgdx.com/
-    img: /images/logos/github.png
-    description: libgdx官网
-  - name: libGdx Wiki
-    url: https://github.com/libgdx/libgdx/wiki
-    img: /images/logos/github.png
-    description: libGdx Wiki
-  - name: libgdx Simple Game
-    url: https://libgdx.com/dev/simple-game/
-    img: /images/logos/github.png
-    description: libgdx Simple Game
-  - name: libgdxGithub
-    url: https://github.com/libgdx/libgdx
-    img: /images/logos/github.png
-    description: libgdxGithub
-
-backendDoc:
-  - name: Springboot
-    url: https://docs.spring.io/spring-boot/docs/2.6.15/reference/htmlsingle/#features.spring-application
-    img: /images/logos/github.png
-    description:   
-  - name: tryRedis
-    url: https://try.redis.io/
-    img: /images/logos/github.png
-    description: tryRedis
-  - name: k8s
-    url: https://kubernetes.io/
-    img: /images/logos/github.png
-    description: k8s官方文档
-  - name: MESOS
-    url: http://mesos.apache.org/
-    img: /images/logos/github.png
-    description: 服务网格
-  - name: Docker
-    url: https://www.docker.com/
-    img: /images/logos/github.png
-    description: Docker官方网站
-  - name: JSoup
-    url: https://jsoup.org/cookbook/
-    img: /images/logos/github.png
-    description: JSoup官方文档
-  - name: MyBatis
-    url: https://mybatis.org/mybatis-3/getting-started.html
-    img: /images/logos/github.png
-    description: MyBatis start
-  - name: MyBatis中文
-    url: https://mybatis.org/mybatis-3/zh/index.html
-    img: /images/logos/github.png
-    description: MyBatis官方文档
-  - name: MySql Doc（8.0）
-    url: https://dev.mysql.com/doc/refman/8.0/en/
-    img: /images/logos/github.png
-    description:  
-  - name: Jeecg
-    url: http://doc.jeecg.com/2043868
-    img: /images/logos/github.png
-    description: 快速开发框架
-  - name: JavaFx
-    url: http://www.javafxchina.net/blog/docs/
-    img: /images/logos/github.png
-    description: JavaFX中文网站
-    
 
 nativeDoc:
   - name: C语言教程
@@ -364,10 +182,6 @@ LinuxDoc:
     
 
 PythonDoc:
-  - name: Flask
-    url: https://www.osgeo.cn/flask/
-    img: /images/logos/github.png
-    description: 
   - name: 正则表达式
     url: https://www.runoob.com/python/python-reg-expressions.html#flags
     img: /images/logos/github.png
@@ -416,30 +230,6 @@ PythonDoc:
     url: https://docs.python-guide.org
     img: /images/logos/github.png
     description: python-guide
-  - name: scrapy2.5.0
-    url: https://www.osgeo.cn/scrapy/topics/spiders.html
-    img: /images/logos/github.png
-    description: scrapy2.5.0   
-  - name: Beautiful Soup 4.4.0 文档
-    url: https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/
-    img: /images/logos/github.png
-    description: Beautiful Soup 4.4.0 文档
-  - name: Requests
-    url: https://docs.python-requests.org/zh_CN/latest/user/quickstart.html
-    img: /images/logos/github.png
-    description: 网络请求库
-  - name: Scrapy中文文档
-    url: https://scrapy-cookbook.readthedocs.io/zh_CN/latest/
-    img: /images/logos/github.png
-    description: Scrapy中文文档
-  - name: Scrapy2.5中文官网
-    url: https://www.osgeo.cn/scrapy/
-    img: /images/logos/github.png
-    description: Scrapy2.5中文官网 
-  - name: Scrapy英文官网
-    url: https://scrapy.org/
-    img: /images/logos/github.png
-    description: Scrapy英文官网
   - name: XPath
     url: https://www.cnblogs.com/dengyanchuan/p/11123129.html
     img: /images/logos/github.png
@@ -492,10 +282,6 @@ PythonDoc:
     url: https://docs.python.org/zh-cn/3/library/
     img: /images/logos/github.png
     description: Python标准库
-  - name: Python 文档
-    url: https://docs.python.org/zh-cn/3/
-    img: /images/logos/github.png
-    description: python文档
   - name: pydantic
     url: https://pydantic-docs.helpmanual.io/
     img: /images/logos/github.png
