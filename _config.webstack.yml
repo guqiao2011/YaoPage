@@ -32,403 +32,14 @@ menu:
   - name: 公众号
     icon: fa fa-star
     config: wechatArticle
-  - name: 线上站点
+  - name: YaoShare
     icon: fa fa-desktop
-    config: onlineWebsite
-  - name: 免费资源大全
+    config: yaoshareConfig
+  - name: VueAdmin
     icon: fa fa-star
-    config: FreeResConf
-  - name: 薅羊毛
-    icon: fa fa-star
-    config: welfare               
-  - name: 网址导航
-    icon: fa fa-star
-    config: webNav
-  - name: 软件站
-    icon: fa fa-star
-    config: software
-  - name: 学习网站
-    icon: fa fa-star
-    config: learn
-  - name: 收藏文章
-    icon: fas fa-blog
-    config: articleConf
-  - name: 常用工具
-    icon: fas fa-tools
-    submenu:
-      - name: 开发工具
-        icon: fas fa-tools
-        config: devTools
-      - name: 其他工具
-        icon: fas fa-tools
-        config: otherTools
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
-
-FreeResConf:
-  - name: 资源合集
-    url: https://flowus.cn/share/fed32d8d-fd27-4a97-91de-168587f180c7
-    img: /images/logos/github.png
-    description: FlowUs上的资源合集
-  - name: 资源合集备份
-    url: https://www.wolai.com/mUVjdyP6Hp9XXmAYxGG1yB
-    img: /images/logos/github.png
-    description: wolai资源合集备份  
-  - name: 免费资源大全
-    url: /free/
-    img: /images/logos/github.png
-    description: 免费资源大全
-  - name: 搞开发
-    url: /develop/
-    img: /images/logos/github.png
-    description: 各种开发资源
-  - name: git免费电子书
-    url: https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-zh.md
-    img: /images/logos/github.png
-    description: github上免费的电子书
-
-welfare:
-  - name: 天天赚
-    url: https://www.daydayzhuan.com/
-    img: /images/logos/github.png
-    description: 
-  - name: 我家有羊毛网
-    url: https://wjy518.com/
-    img: /images/logos/github.png
-    description:       
-
-webNav:
-  - name: 中国独立博客列表
-    url: https://github.com/timqian/chinese-independent-blogs
-    img: /images/logos/github.png
-    description: 中国独立博客列表
-  - name: 大数据导航
-    url: http://hao.199it.com/
-    img: /images/logos/github.png
-    description: 199IT大数据工具导航
-  - name: 书享家
-    url: https://www.shuxiangjia.cn/
-    img: /images/logos/github.png
-    description: 电子书下载导航
-  - name: 资源帝
-    url: http://ziyuandi.cn/
-    img: /images/logos/github.png
-    description: 全网资源聚合搜索
-  - name: HiWorld
-    url: https://site.51git.cn/
-    img: /images/logos/github.png
-    description: 为互联网人而设计的名站导航
-  - name: 设计者导航
-    url: https://www.seeseed.com/
-    img: /images/logos/github.png
-    description: 无穷尽设计可能
-  - name: 科塔学术
-    url: https://site.sciping.com/
-    img: /images/logos/github.png
-    description: 国内领先的科研与学术资源导航平台
-  - name: 搜图导航
-    url: https://www.91sotu.com/
-    img: /images/logos/github.png
-    description: 提供一站式快速搜索图像服务
-  - name: 龙轩导航
-    url: http://ilxdh.com/
-    img: /images/logos/github.png
-    description: 做个有用的导航
-  - name: 数字生活指南
-    url: https://nav.guidebook.top/xuexi
-    img: /images/logos/github.png
-    description: 学习教育｜数字生活指南
-  - name: 程序员导航
-    url: https://socode.pro/
-    img: /images/logos/github.png
-    description: 程序员资源导航
-  - name: 爱学术
-    url: https://www.ixueshu.com/
-    img: /images/logos/github.png
-    description: 学术资源下载
-  - name: 办公人导航
-    url: https://www.bgrdh.com/
-    img: /images/logos/github.png
-    description: 实用的办公生活导航网站
-  - name: 蜘蛛导航
-    url: https://www.zhizhudh.com/
-    img: /images/logos/github.png
-    description: 收集全网最好用的在线工具
-  - name: 轻工具导航
-    url: https://qinggongju.com/
-    img: /images/logos/github.png
-    description: 一个专注收集免费分享优质免费资源的导航
-  - name: tbox导航
-    url: https://www.tboxn.com/
-    img: /images/logos/github.png
-    description: 只收录优质在线工具的导航
-  - name: 宝藏影视导航
-    url: https://tv.baozangdh.com/
-    img: /images/logos/github.png
-    description: 只收录优质在线工具的导航
-  - name: HiPPTer
-    url: https://www.hippter.com/
-    img: /images/logos/github.png
-    description: PPT资源的导航
-  - name: 阡途导航
-    url: http://123.tentod.com/
-    img: /images/logos/github.png
-    description: 
-  - name: 三顿导航
-    url: https://sandunppt.com/
-    img: /images/logos/github.png
-    description: ppt设计导航
-  - name: YBX
-    url: https://ybx.com/zh
-    img: /images/logos/github.png
-    description: 最好用的导航站和AI工具箱列表
-  - name: 爱达杂货铺
-    url: https://adzhp.cc/
-    img: /images/logos/github.png
-    description: 收集那些有用的东西
-
-software:
-  - name: 六音软件
-    url: https://6yso.com/
-    img: /images/logos/github.png
-    description: 源于一个热爱折腾的人所建，网站搜集各种软件、有趣的内容、实用的教程等，同时提供一个分享交流的平台
-  - name: i3综合社区
-    url: https://www.i3zh.com/
-    img: /images/logos/github.png
-    description: 搜罗全网黑科技应用
-  - name: 反斗软件
-    url: http://www.apprcn.com/
-    img: /images/logos/github.png
-    description: 专注个人软件和绿色软件
-  - name: 软件共享
-    url: http://www.zhanshaoyi.com/rjxz.html
-    img: /images/logos/github.png
-    description: 共享一些好用的软件
-  - name: 佛系软件
-    url: https://foxirj.com/
-    img: /images/logos/github.png
-    description: 
-  - name: 好料空间
-    url: https://www.h6room.com/
-    img: /images/logos/github.png
-    description: 互联网好料，安卓/PC软件分享
-  - name: OS SSR
-    url: https://www.osssr.com/
-    img: /images/logos/github.png
-    description: 软件资源下载平台
-  - name: 乐享
-    url: https://www.lxapk.com/
-    img: /images/logos/github.png
-    description: 专注于手机应用分享网站，为用户提供各种绿色、实用、有趣的、好玩的应用和技术教程分享交流的平台
-  - name: MEFCL
-    url: https://www.mefcl.com/
-    img: /images/logos/github.png
-    description: 分享纯净好资源
-  - name: 殁漂遥
-    url: https://www.mpyit.com/
-    img: /images/logos/github.png
-    description: 不以营利为目的的分享网站
-  - name: App喵
-    url: https://www.appmiu.com/
-    img: /images/logos/github.png
-    description: 软件喵资源分享
-  - name: 枫音应用
-    url: https://www.fy6b.com/
-    img: /images/logos/github.png
-    description: 软件分享站
-  - name: 5ilr绿软
-    url: https://www.5ilr.com/
-    img: /images/logos/github.png
-    description: 力争做最靠谱的下载网
-  - name: 落尘之木
-    url: https://www.luochenzhimu.com/
-    img: /images/logos/github.png
-    description: 
-  - name: 一蓑烟雨
-    url: https://www.zaera.cn/
-    img: /images/logos/github.png
-    description: 资源分享站
-  - name: 软件限免
-    url: https://xianmian.notion.site/
-    img: /images/logos/github.png
-    description: 
-  - name: 海棠网
-    url: https://www.haitangw.cc/
-    img: /images/logos/github.png
-    description: 
-
-learn:
-  - name: 国家终身教育平台
-    url: https://le.ouchn.cn/home
-    img: /images/logos/myblog.png
-    description: 终身教育
-  - name: 清华大学计算机系课程
-    url: https://github.com/PKUanonym/REKCARC-TSC-UHT
-    img: /images/logos/myblog.png
-    description: 清华大学计算机系课程
-  - name: 高校外语
-    url: https://moocs.unipus.cn/
-    img: /images/logos/myblog.png
-    description: 中国高校外语慕课网
-  - name: 黑马视频库
-    url: http://yun.itheima.com/?sjncsdn
-    img: /images/logos/myblog.png
-    description: 黑马免费视频
-  - name: dummies
-    url: https://www.dummies.com/
-    img: /images/logos/myblog.png
-    description: 编程和web设计资源学习
-  - name:  UICN
-    url: https://www.ui.cn/
-    img: /images/logos/myblog.png
-    description: 用户体验设计平台
-  - name:  精品网课
-    url: https://www.soutd.com/tags
-    img: /images/logos/myblog.png
-    description: 精品网课
-
-devTools:
-  - name: csvjson
-    url: https://csvjson.com/
-    img: /images/logos/github.png
-    description: The easy, confidential online data converter
-  - name: 代码查找工具
-    url: https://sourcegraph.com/search
-    img: /images/logos/github.png
-    description: 代码查找工具
-  - name: Github中文社区
-    url: https://www.githubs.cn/
-    img: /images/logos/github.png
-    description: Github中文社区
-  - name: github镜像站
-    url: https://hub.nuaa.cf/
-    img: /images/logos/github.png
-    description: github镜像站
-  - name: gitclone
-    url: https://gitclone.com/
-    img: /images/logos/github.png
-    description: gitclone
-  - name: 提高国内访问 GitHub 的速度的 9 种方案
-    url: https://mp.weixin.qq.com/s/8jHseoUhrA-eU598ZPC_RQ
-    img: /images/logos/github.png
-    description: 提高GitHub速度
-  - name: 每日Java排行
-    url: https://github.com/trending/java?since=daily
-    img: /images/logos/github.png
-    description: Java排行榜
-  - name: toolfk
-    url: https://www.toolfk.com/
-    img: /images/logos/github.png
-    description: 最强工具人在线工具箱
-  - name: egouz
-    url: https://m.egouz.com/
-    img: /images/logos/github.png
-    description: 国外网站推荐
-  - name: tool
-    url: https://tool.lu/
-    img: /images/logos/github.png
-    description: 在线工具-你的工具箱
-  - name: regex101
-    url: https://regex101.com/
-    img: /images/logos/github.png
-    description: 正则表达式校验
-  - name: ihateregex
-    url: https://ihateregex.io/
-    img: /images/logos/github.png
-    description: ihateregex
-  - name: 正则表达式
-    url: https://www.cnblogs.com/micr067/p/13818019.html 
-    img: /images/logos/github.png
-    description: 参考手册
-  - name: 微软正则表达式
-    url: https://learn.microsoft.com/zh-cn/dotnet/standard/base-types/regular-expression-language-quick-reference
-    img: /images/logos/github.png
-    description: 参考手册
-  - name: 常用正则表达式
-    url: https://juejin.cn/post/6844903773077258254
-    img: /images/logos/github.png
-    description: 常用正则表达式
-  - name: 码力全开
-    url: https://design.maliquankai.com/
-    img: /images/logos/github.png
-    description: 产品/设计师/独立开发者的资源库
-  - name: 改图宝
-    url: https://www.gaitubao.com/
-    img: /images/logos/github.png
-    description: 在线修改照片大小尺寸工具
-
-otherTools:
-  - name: DNS查询
-    url: https://myssl.com/dns_check.html
-    img: /images/logos/github.png
-    description: DNS查询
-  - name: 网速测试
-    url: https://www.ping.cn/http
-    img: /images/logos/github.png
-    description: 全国各地网络速度测试
-  - name: boce
-    url: https://www.boce.com/
-    img: /images/logos/github.png
-    description: 网络测试工具
-  - name: 17ce
-    url: https://www.17ce.com/
-    img: /images/logos/github.png
-    description: 网络测试工具
-
-articleConf:
-   - name: Base64原理解析与使用
-     url: https://www.cnblogs.com/peterYong/p/10959964.html
-     img: /images/logos/github.png
-     description: Base64原理
-   - name: 苹果电脑合盖自动休眠问题
-     url: https://zhuanlan.zhihu.com/p/141788590
-     img: /images/logos/github.png
-     description: 苹果电脑合盖自动休眠问题
-   - name: Ubuntu搭建Jenkins+Android自动化打包
-     url: https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650244565&idx=1&sn=48655c4993e5c21807b788132f610624
-     img: /images/logos/github.png
-     description: Jenkins+Android自动化打包
-   - name: Centos配置Jenkins实现Android自动化打包并上传到蒲公英
-     url: https://mp.weixin.qq.com/s?__biz=MzA3NzMxODEyMQ==&mid=2666454502&idx=2&sn=e350cb238f89d7e604252a9d6a3ca001
-     img: /images/logos/github.png
-     description: Jenkins实现Android自动化打包并上传到蒲公英
-   - name: 京东云性能测试
-     url: https://docs.jdcloud.com/cn/virtual-machines/linux-performance-test
-     img: /images/logos/github.png
-     description: 京东云性能测试
-   - name: Linux安全检测常用方法
-     url: https://blog.csdn.net/weixin_42565062/article/details/81778918
-     img: /images/logos/github.png
-     description: Linux安全检测常用方法
-   - name: Linux安全检查
-     url: https://www.cnblogs.com/ryanlamp/p/5837859.html
-     img: /images/logos/github.png
-     description: Linux安全检查
-   - name: Linux五种IO模型
-     url: https://www.jianshu.com/p/486b0965c296
-     img: /images/logos/github.png
-     description: Linux五种IO模型
-   - name: 搭建苹果CMS
-     url: https://blog.csdn.net/ice_stone_kai/article/details/125795307
-     img: /images/logos/github.png
-     description: 搭载MacCMS
-   - name: 音视频开发入门指南
-     url: https://zhuanlan.zhihu.com/p/28518637
-     img: /images/logos/github.png
-     description: 音视频开发
-
-myBlog:
-  - name: 内卷
-    url: https://github.com/hoodiearon/WebSiteOutlook
-    img: /images/logos/github.png
-    description: 各种学习资料
+    config: vueAdminConfig
 
 onlineWebsite:
-  - name: awardspace
-    url: http://yaoger.getenjoyment.net/
-    img: /images/logos/github.png
-    description:     
   - name: OpenBlog
     url: http://yaoger.endl.site/OpenBlog/
     img: /images/logos/github.png
@@ -455,11 +66,58 @@ onlineWebsite:
     description:
 
 wechatArticle:
-  - name: 每日分享
-    url: /share/
-    img: /images/logos/github.png
-    description: 每天分享免费好玩的资源
-  
+  - name: FlowUs主笔记
+    url: https://flowus.cn/share/fed32d8d-fd27-4a97-91de-168587f180c7
+    img: /images/logos/myblog.png
+    description: lzQ5
+  - name: 语雀主笔记
+    url: https://www.yuque.com/yaoge-qk83b/ugukg1
+    img: /images/logos/myblog.png
+    description: 
+  - name: notion备用(已废弃)
+    url: https://circular-grease-3ac.notion.site/1c3a3ad38a7e806e975ffe71d4c76c05
+    img: /images/logos/myblog.png
+    description:
+
+yaoshareConfig:
+  - name: yaoshare主站
+    url: https://yaoshare.netlify.app
+    img: /images/logos/myblog.png
+    description: 
+  - name: yaoshare01
+    url: http://yaoshare.phpnet.us
+    img: /images/logos/myblog.png
+    description: 
+  - name: yaoshare02
+    url: http://yaoshare2026.phpnet.us
+    img: /images/logos/myblog.png
+    description: 
+  - name: yaoshare03
+    url: http://yaoshare.free.nf
+    img: /images/logos/myblog.png
+    description: 
+  - name: yaoshare04
+    url: https://yaoshare.thsite.top
+    img: /images/logos/myblog.png
+    description:
+
+vueAdminConfig:
+  - name: runhosting
+    url: http://yaoshare.getenjoyment.net/
+    img: /images/logos/myblog.png
+    description:
+  - name: awardspace
+    url: http://yaoger.getenjoyment.net/
+    img: /images/logos/myblog.png
+    description:
+  - name: mdbgo
+    url: https://yaoshare-vue-admin.mdbgo.io
+    img: /images/logos/myblog.png
+    description:
+  - name: maozi
+    url: https://yaoshare.maozi.io/
+    img: /images/logos/myblog.png
+    description:
 
 about:
   url: /about/
