@@ -124,10 +124,12 @@ vueAdminConfig:
     description:
   
 monitorConfig:
-  - name: yaoshare.netlify.app
+  - name: uptimerobot
     url: https://stats.uptimerobot.com/pVrSUbt6Sj
     img: /images/logos/myblog.png
-    description: yaoshare服务监听状态
+    description: 服务状态监听
+
+  
 
 about:
   url: /about/
