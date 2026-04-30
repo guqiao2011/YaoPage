@@ -38,6 +38,10 @@ menu:
   - name: VueAdmin
     icon: fa fa-star
     config: vueAdminConfig
+  - name: Monitor
+    icon: fa fa-star
+    config: monitorConfig
+
 
 onlineWebsite:
   - name: OpenBlog
@@ -118,6 +122,12 @@ vueAdminConfig:
     url: https://yaoshare.maozi.io/
     img: /images/logos/myblog.png
     description:
+  
+monitorConfig:
+  - name: yaoshare.netlify.app
+    url: https://stats.uptimerobot.com/pVrSUbt6Sj
+    img: /images/logos/myblog.png
+    description: yaoshare服务监听状态
 
 about:
   url: /about/
