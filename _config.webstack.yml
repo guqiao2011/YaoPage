@@ -92,7 +92,7 @@ yaoshareConfig:
     url: http://yaoshare.phpnet.us
     img: /images/logos/myblog.png
     description: 
-  - name: yaoshare02
+  - name: yaoshare02（失效）
     url: http://yaoshare2026.phpnet.us
     img: /images/logos/myblog.png
     description: 
@@ -104,6 +104,11 @@ yaoshareConfig:
     url: https://yaoshare.thsite.top
     img: /images/logos/myblog.png
     description:
+  - name: yaoshare05
+    url: https://yaoshare.php2h.com
+    img: /images/logos/myblog.png
+    description:
+
 
 vueAdminConfig:
   - name: runhosting
