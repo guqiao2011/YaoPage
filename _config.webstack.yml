@@ -92,7 +92,7 @@ yaoshareConfig:
     url: http://yaoshare.phpnet.us
     img: /images/logos/myblog.png
     description: 
-  - name: yaoshare02（失效）
+  - name: yaoshare02
     url: http://yaoshare2026.phpnet.us
     img: /images/logos/myblog.png
     description: 
