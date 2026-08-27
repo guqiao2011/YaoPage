@@ -112,6 +112,10 @@ yaoshareConfig:
     url: https://yaoshare.wasmer.app
     img: /images/logos/myblog.png
     description:
+  - name: yaoshare07
+    url: http://yaoshare.my-place.us
+    img: /images/logos/myblog.png
+    description:
 
 
 vueAdminConfig:
@@ -129,6 +133,10 @@ vueAdminConfig:
     description:
   - name: maozi
     url: https://yaoshare.maozi.io/
+    img: /images/logos/myblog.png
+    description:
+  - name: hongdus
+    url: https://yaoshare.hongdus.com/
     img: /images/logos/myblog.png
     description:
   
