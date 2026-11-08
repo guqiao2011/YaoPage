@@ -29,6 +29,9 @@ githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="
 
 expandAll: false
 menu:
+  - name: 首页
+    icon: fa fa-star
+    config: onlineWebsite
   - name: 公众号
     icon: fa fa-star
     config: wechatArticle
@@ -38,36 +41,20 @@ menu:
   - name: VueAdmin
     icon: fa fa-star
     config: vueAdminConfig
+  - name: YaoWeb
+    icon: fa fa-star
+    config: yaoWebConfig
   - name: Monitor
     icon: fa fa-star
     config: monitorConfig
 
 
 onlineWebsite:
-  - name: OpenBlog
-    url: http://yaoger.endl.site/OpenBlog/
-    img: /images/logos/github.png
-    description: 
   - name: YaogerBlog
     url: http://yaoger.endl.site/YaogerBlog/
     img: /images/logos/github.png
     description: 
-  - name: netlify
-    url: https://yaoshare.netlify.app/
-    img: /images/logos/github.png
-    description:      
-  - name: vercel
-    url: https://guqiao2011.vercel.app/
-    img: /images/logos/github.png
-    description:  
-  - name: fleek
-    url: https://tiny-airport-slow.on-fleek.app/
-    img: /images/logos/github.png
-    description:
-  - name: deno
-    url: https://guqiao2011.deno.dev/
-    img: /images/logos/github.png
-    description:
+
 
 wechatArticle:
   - name: FlowUs主笔记
@@ -108,7 +95,7 @@ yaoshareConfig:
     url: https://yaoshare.php2h.com
     img: /images/logos/myblog.png
     description:
-  - name: yaoshare06
+  - name: wasmer
     url: https://yaoshare.wasmer.app
     img: /images/logos/myblog.png
     description:
@@ -116,7 +103,10 @@ yaoshareConfig:
     url: http://yaoshare.my-place.us
     img: /images/logos/myblog.png
     description:
-
+  - name: statichost
+    url: https://yaoshare.statichost.page/
+    img: /images/logos/myblog.png
+    description: https://builder.statichost.eu/，github账号，QQ邮箱
 
 vueAdminConfig:
   - name: runhosting
@@ -139,14 +129,27 @@ vueAdminConfig:
     url: https://yaoshare.hongdus.com/
     img: /images/logos/myblog.png
     description:
-  
+
+yaoWebConfig:
+  - name: appwrite.io
+    url: https://yaoshare.appwrite.network/
+    img: /images/logos/myblog.png
+    description: github登录/database/function/site/
+  - name: deploybase.eu
+    url: https://yaoshare.sites.deploybase.eu/
+    img: /images/logos/myblog.png
+    description: github登录
+  - name: cloady.com
+    url: https://yaoshare.cloady.io
+    img: /images/logos/myblog.png
+    description: github登录
+
+
 monitorConfig:
   - name: uptimerobot
     url: https://stats.uptimerobot.com/pVrSUbt6Sj
     img: /images/logos/myblog.png
     description: 服务状态监听
-
-  
 
 about:
   url: /about/
