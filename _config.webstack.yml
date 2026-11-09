@@ -143,6 +143,10 @@ yaoWebConfig:
     url: https://yaoshare.cloady.io
     img: /images/logos/myblog.png
     description: github登录
+  - name: cloudflare.com
+    url:  https://yaoweb.1015877902.workers.dev
+    img: /images/logos/myblog.png
+    description: QQ邮箱
 
 
 monitorConfig:
