@@ -47,7 +47,9 @@ menu:
   - name: Monitor
     icon: fa fa-star
     config: monitorConfig
-
+  - name: OpenList
+    icon: fa fa-star
+    config: openListConfig
 
 onlineWebsite:
   - name: YaogerBlog
@@ -145,6 +147,12 @@ yaoWebConfig:
     description: github登录
   - name: cloudflare.com
     url:  https://yaoweb.1015877902.workers.dev
+    img: /images/logos/myblog.png
+    description: QQ邮箱
+
+openListConfig:
+  - name: cloudflare.com
+    url:  https://openlist-worker.1015877902.workers.dev/
     img: /images/logos/myblog.png
     description: QQ邮箱
 
